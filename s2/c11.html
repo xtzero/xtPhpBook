@@ -1,0 +1,809 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Chapter11 字符串 · xtPHPBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="xt">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="c12.html" />
+    
+    
+    <link rel="prev" href="c10.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"xtzero","repo":"xtPhpBook","type":"star","size":"small","count":true}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    README
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    绪篇
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../s0/c0.html">
+            
+                <a href="../s0/c0.html">
+            
+                    
+                    Chapter0 计算机基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../s0/cn.html">
+            
+                <a href="../s0/cn.html">
+            
+                    
+                    前言与后记
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    第一部分 PHP与web编程
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../s1/c1.html">
+            
+                <a href="../s1/c1.html">
+            
+                    
+                    Chapter1 简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../s1/c2.html">
+            
+                <a href="../s1/c2.html">
+            
+                    
+                    Chapter2 HTML基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../s1/c3.html">
+            
+                <a href="../s1/c3.html">
+            
+                    
+                    Chapter3 开发前准备
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../s1/c4.html">
+            
+                <a href="../s1/c4.html">
+            
+                    
+                    Chapter4 发布你的代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    第二部分 PHP基础语法
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="c5.html">
+            
+                <a href="c5.html">
+            
+                    
+                    Chapter5 初识PHP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="c6.html">
+            
+                <a href="c6.html">
+            
+                    
+                    Chapter6 变量和数据类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="c7.html">
+            
+                <a href="c7.html">
+            
+                    
+                    Chapter7 表达式和运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="c8.html">
+            
+                <a href="c8.html">
+            
+                    
+                    Chapter8 语句和控制结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="c9.html">
+            
+                <a href="c9.html">
+            
+                    
+                    Chapter9 函数与程序模块化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="c10.html">
+            
+                <a href="c10.html">
+            
+                    
+                    Chapter10 数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.7" data-path="c11.html">
+            
+                <a href="c11.html">
+            
+                    
+                    Chapter11 字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="c12.html">
+            
+                <a href="c12.html">
+            
+                    
+                    Chapter12 类与对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="c13.html">
+            
+                <a href="c13.html">
+            
+                    
+                    Chapter13 异常处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="c14.html">
+            
+                <a href="c14.html">
+            
+                    
+                    Chatper14 日期与时间
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="c15.html">
+            
+                <a href="c15.html">
+            
+                    
+                    Chapter15 web编程基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12" data-path="c16.html">
+            
+                <a href="c16.html">
+            
+                    
+                    Chapter 框架与架构简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    第三部分 数据库（未完成）
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    第四部分 web编程（未完成）
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Chapter11 字符串</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#chapter11-&#x5B57;&#x7B26;&#x4E32;"><b>1. </b>Chapter11 &#x5B57;&#x7B26;&#x4E32;</a></li><ul><li><span class="title-icon "></span><a href="#&#x5B57;&#x7B26;&#x4E32;&#x7B80;&#x4ECB;"><b>1.1. </b>&#x5B57;&#x7B26;&#x4E32;&#x7B80;&#x4ECB;</a></li><li><span class="title-icon "></span><a href="#&#x5B57;&#x7B26;&#x4E32;&#x64CD;&#x4F5C;&#x51FD;&#x6570;"><b>1.2. </b>&#x5B57;&#x7B26;&#x4E32;&#x64CD;&#x4F5C;&#x51FD;&#x6570;</a></li><ul><li><span class="title-icon "></span><a href="#html&#x76F8;&#x5173;&#x64CD;&#x4F5C;"><b>1.2.1. </b>html&#x76F8;&#x5173;&#x64CD;&#x4F5C;</a></li><li><span class="title-icon "></span><a href="#&#x67E5;&#x627E;&#x3001;&#x622A;&#x53D6;&#x3001;&#x66FF;&#x6362;"><b>1.2.2. </b>&#x67E5;&#x627E;&#x3001;&#x622A;&#x53D6;&#x3001;&#x66FF;&#x6362;</a></li></ul><li><span class="title-icon "></span><a href="#&#x5B57;&#x7B26;&#x4E32;--&#x6570;&#x7EC4;"><b>1.3. </b>&#x5B57;&#x7B26;&#x4E32; &amp; &#x6570;&#x7EC4;</a></li><li><span class="title-icon "></span><a href="#&#x6A21;&#x5F0F;"><b>1.4. </b>&#x6A21;&#x5F0F;</a></li><ul><li><span class="title-icon "></span><a href="#&#x5143;&#x5B57;&#x7B26;"><b>1.4.1. </b>&#x5143;&#x5B57;&#x7B26;</a></li><li><span class="title-icon "></span><a href="#&#x8F6C;&#x4E49;&#x5B57;&#x7B26;"><b>1.4.2. </b>&#x8F6C;&#x4E49;&#x5B57;&#x7B26;</a></li><li><span class="title-icon "></span><a href="#&#x6A21;&#x5F0F;&#x4FEE;&#x9970;&#x7B26;"><b>1.4.3. </b>&#x6A21;&#x5F0F;&#x4FEE;&#x9970;&#x7B26;</a></li><li><span class="title-icon "></span><a href="#&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x76F8;&#x5173;&#x51FD;&#x6570;"><b>1.4.4. </b>&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x76F8;&#x5173;&#x51FD;&#x6570;</a></li></ul></ul></ul></div><a href="#chapter11-&#x5B57;&#x7B26;&#x4E32;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="chapter11-&#x5B57;&#x7B26;&#x4E32;"><a name="chapter11-&#x5B57;&#x7B26;&#x4E32;" class="anchor-navigation-ex-anchor" href="#chapter11-&#x5B57;&#x7B26;&#x4E32;"><i class="fa fa-link" aria-hidden="true"></i></a>1. Chapter11 &#x5B57;&#x7B26;&#x4E32;</h1>
+<h2 id="&#x5B57;&#x7B26;&#x4E32;&#x7B80;&#x4ECB;"><a name="&#x5B57;&#x7B26;&#x4E32;&#x7B80;&#x4ECB;" class="anchor-navigation-ex-anchor" href="#&#x5B57;&#x7B26;&#x4E32;&#x7B80;&#x4ECB;"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. &#x5B57;&#x7B26;&#x4E32;&#x7B80;&#x4ECB;</h2>
+<p>&#x5728;<a href="6%20&#x53D8;&#x91CF;&#x548C;&#x6570;&#x636E;&#x7C7B;&#x578B;.md">&#x53D8;&#x91CF;&#x548C;&#x6570;&#x636E;&#x7C7B;&#x578B;</a>&#x4E00;&#x7AE0;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x5DF2;&#x7ECF;&#x5BF9;&#x5B57;&#x7B26;&#x548C;&#x5B57;&#x7B26;&#x4E32;&#x8FDB;&#x884C;&#x4E86;&#x7B80;&#x7565;&#x7684;&#x4ECB;&#x7ECD;&#x3002;&#x6211;&#x4EEC;&#x63D0;&#x5230;&#xFF0C;&#x5B57;&#x7B26;&#x4E32;&#x662F;&#x7528;&#x5355;&#x5F15;&#x53F7;<code>&apos;&apos;</code>&#x6216;&#x53CC;&#x5F15;&#x53F7;<code>&quot;&quot;</code>&#x5305;&#x542B;&#x7684;&#x4E00;&#x4E32;&#x5B57;&#x7B26;&#xFF0C;&#x5E76;&#x4E14;&#x53CC;&#x5F15;&#x53F7;&#x4E2D;&#x95F4;&#x53EF;&#x4EE5;&#x63D2;&#x5165;&#x53D8;&#x91CF;&#xFF0C;&#x4F46;&#x5355;&#x5F15;&#x53F7;&#x4E0D;&#x53EF;&#x4EE5;&#x3002;&#x4F7F;&#x7528;&#x82F1;&#x6587;&#x7684;&#x7B26;&#x53F7;<code>.</code>&#x6765;&#x8FDE;&#x63A5;&#x4E24;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x3002;</p>
+<h2 id="&#x5B57;&#x7B26;&#x4E32;&#x64CD;&#x4F5C;&#x51FD;&#x6570;"><a name="&#x5B57;&#x7B26;&#x4E32;&#x64CD;&#x4F5C;&#x51FD;&#x6570;" class="anchor-navigation-ex-anchor" href="#&#x5B57;&#x7B26;&#x4E32;&#x64CD;&#x4F5C;&#x51FD;&#x6570;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. &#x5B57;&#x7B26;&#x4E32;&#x64CD;&#x4F5C;&#x51FD;&#x6570;</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">&#x51FD;&#x6570;&#x540D;</th>
+<th style="text-align:center">&#x529F;&#x80FD;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">strlen</td>
+<td style="text-align:center">&#x8FD4;&#x56DE;&#x5B57;&#x7B26;&#x4E32;&#x957F;&#x5EA6;</td>
+</tr>
+<tr>
+<td style="text-align:center">strtolower</td>
+<td style="text-align:center">&#x5C06;&#x6240;&#x6709;&#x5B57;&#x7B26;&#x8F6C;&#x4E3A;&#x5C0F;&#x5199;</td>
+</tr>
+<tr>
+<td style="text-align:center">strtoupper</td>
+<td style="text-align:center">&#x5C06;&#x6240;&#x6709;&#x5B57;&#x7B26;&#x8F6C;&#x4E3A;&#x5927;&#x5199;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="html&#x76F8;&#x5173;&#x64CD;&#x4F5C;"><a name="html&#x76F8;&#x5173;&#x64CD;&#x4F5C;" class="anchor-navigation-ex-anchor" href="#html&#x76F8;&#x5173;&#x64CD;&#x4F5C;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2.1. html&#x76F8;&#x5173;&#x64CD;&#x4F5C;</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">&#x51FD;&#x6570;&#x540D;</th>
+<th style="text-align:center">&#x529F;&#x80FD;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">htmlspecialchars</td>
+<td style="text-align:center">&#x5C06;html&#x9884;&#x5B9A;&#x4E49;&#x7684;&#x5B57;&#x7B26;&#x8F6C;&#x6362;&#x4E3A;HTML&#x5B9E;&#x4F53;</td>
+</tr>
+<tr>
+<td style="text-align:center">strip_tags</td>
+<td style="text-align:center">&#x53BB;&#x6389;&#x5B57;&#x7B26;&#x4E32;&#x4E2D;&#x7684;html&#x6807;&#x7B7E;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="&#x67E5;&#x627E;&#x3001;&#x622A;&#x53D6;&#x3001;&#x66FF;&#x6362;"><a name="&#x67E5;&#x627E;&#x3001;&#x622A;&#x53D6;&#x3001;&#x66FF;&#x6362;" class="anchor-navigation-ex-anchor" href="#&#x67E5;&#x627E;&#x3001;&#x622A;&#x53D6;&#x3001;&#x66FF;&#x6362;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2.2. &#x67E5;&#x627E;&#x3001;&#x622A;&#x53D6;&#x3001;&#x66FF;&#x6362;</h3>
+<h4 id="substrstrstartlength"><a name="substrstrstartlength" class="anchor-navigation-ex-anchor" href="#substrstrstartlength"><i class="fa fa-link" aria-hidden="true"></i></a><a name="substrstrstartlength" class="plugin-anchor" href="#substrstrstartlength"><i class="fa fa-link" aria-hidden="true"></i></a><code>substr(str,start,length)</code></h4>
+<p><code>substr</code>&#x51FD;&#x6570;&#x5C06;&#x5B57;&#x7B26;&#x4E32;<code>str</code>&#x4ECE;<code>start</code>&#x4F4D;&#x7F6E;&#x5F00;&#x59CB;&#x622A;&#x53D6;&#xFF0C;&#x5171;&#x622A;&#x53D6;<code>length</code>&#x957F;&#x5EA6;&#xFF0C;&#x8FD4;&#x56DE;&#x622A;&#x53D6;&#x540E;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x3002;<code>length</code>&#x53C2;&#x6570;&#x53EF;&#x9009;&#xFF0C;&#x5982;&#x7F3A;&#x5C11;<code>length</code>&#x53C2;&#x6570;&#xFF0C;&#x5219;&#x622A;&#x53D6;&#x5230;&#x5B57;&#x7B26;&#x4E32;&#x672B;&#x7AEF;&#x3002;</p>
+<pre><code class="lang-php"><span class="hljs-comment">//stringFunc.php</span>
+$str = <span class="hljs-string">&apos;Welcome to China&apos;</span>;
+$subStr1 = substr($str,<span class="hljs-number">7</span>,<span class="hljs-number">2</span>);
+$subStr2 = substr($str,<span class="hljs-number">7</span>);
+
+var_dump($str,$subStr1,$subStr2);
+</code></pre>
+<p><img src="../pic/11-1.png" alt=""></p>
+<h4 id="strposstrfindstart"><a name="strposstrfindstart" class="anchor-navigation-ex-anchor" href="#strposstrfindstart"><i class="fa fa-link" aria-hidden="true"></i></a><a name="strposstrfindstart" class="plugin-anchor" href="#strposstrfindstart"><i class="fa fa-link" aria-hidden="true"></i></a><code>strpos(str,find,start)</code></h4>
+<p><code>strpos</code>&#x51FD;&#x6570;&#x4F1A;&#x5728;&#x5B57;&#x7B26;&#x4E32;<code>str</code>&#x4E2D;&#x641C;&#x7D22;<code>find</code>&#xFF0C;&#x5E76;&#x8FD4;&#x56DE;&#x7B2C;&#x4E00;&#x6B21;&#x51FA;&#x73B0;&#x7684;&#x4F4D;&#x7F6E;&#x3002;<code>start</code>&#x53C2;&#x6570;&#x53EF;&#x9009;&#xFF0C;&#x53EF;&#x6307;&#x5B9A;&#x4ECE;&#x4F55;&#x5904;&#x5F00;&#x59CB;&#x641C;&#x7D22;&#x3002;&#x9ED8;&#x8BA4;&#x4ECE;<code>str</code>&#x7684;&#x5F00;&#x5934;&#x5F00;&#x59CB;&#x641C;&#x7D22;&#x3002;</p>
+<pre><code class="lang-php"><span class="hljs-comment">//stringFunc.php</span>
+$str = <span class="hljs-string">&apos;Welcome to China&apos;</span>;
+$strPos = strpos($str,<span class="hljs-string">&apos;China&apos;</span>);
+
+var_dump($str,$strPos);
+</code></pre>
+<p><img src="../pic/11-2.png" alt=""></p>
+<h4 id="strreplacefindreplacestrcount"><a name="strreplacefindreplacestrcount" class="anchor-navigation-ex-anchor" href="#strreplacefindreplacestrcount"><i class="fa fa-link" aria-hidden="true"></i></a><a name="strreplacefindreplacestrcount" class="plugin-anchor" href="#strreplacefindreplacestrcount"><i class="fa fa-link" aria-hidden="true"></i></a><code>str_replace(find,replace,str,count)</code></h4>
+<p><code>str_replace</code>&#x51FD;&#x6570;&#x4F1A;&#x5728;<code>str</code>&#x5B57;&#x7B26;&#x4E32;&#x4E2D;&#x641C;&#x7D22;<code>find</code>&#x5B50;&#x4E32;&#xFF0C;&#x5E76;&#x5C06;&#x6240;&#x6709;&#x5B50;&#x4E32;&#x66FF;&#x6362;&#x6210;<code>replace</code>&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x5E76;&#x8FD4;&#x56DE;&#x66FF;&#x6362;&#x540E;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x3002;&#x66FF;&#x6362;&#x7684;&#x6570;&#x91CF;&#x5C06;&#x8BB0;&#x5F55;&#x5728;<code>count</code>&#x4E2D;&#x3002;<code>count</code>&#x53C2;&#x6570;&#x53EF;&#x9009;&#x3002;</p>
+<pre><code class="lang-php"><span class="hljs-comment">//strreplace.php</span>
+$str = <span class="hljs-string">&apos;I will destroy.&apos;</span>;
+$count = <span class="hljs-number">0</span>;
+$newStr = str_replace(<span class="hljs-string">&apos;destroy&apos;</span>,<span class="hljs-string">&apos;fade&apos;</span>,$str,$count);
+var_dump($str,$newStr,$count);
+</code></pre>
+<p><img src="../pic/11-3.png" alt="">
+&#x8FD9;&#x4E2A;&#x51FD;&#x6570;&#x8FD8;&#x6709;&#x66F4;&#x591A;&#x7684;&#x7528;&#x6CD5;&#x3002;&#x4F8B;&#x5982;&#x5982;&#x679C;&#x60F3;&#x5C06;&#x5B57;&#x7B26;&#x4E32;&#x4E2D;&#x7684;&#x5143;&#x97F3;&#x5B57;&#x6BCD;&#x90FD;&#x66FF;&#x6362;&#x6210;&#x5176;&#x4ED6;&#x7B26;&#x53F7;&#xFF0C;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;<code>find</code>&#x6B64;&#x65F6;&#x5141;&#x8BB8;&#x662F;&#x6570;&#x7EC4;&#x3002;&#x5F53;<code>find</code>&#x662F;&#x6570;&#x7EC4;&#xFF0C;&#x5219;&#x4F1A;&#x518D;<code>str</code>&#x4E2D;&#x641C;&#x7D22;&#x6240;&#x6709;&#x6570;&#x7EC4;&#x4E2D;&#x51FA;&#x73B0;&#x7684;&#x5143;&#x7D20;&#xFF0C;&#x66FF;&#x6362;&#x6210;<code>replace</code>&#x3002;</p>
+<pre><code class="lang-php"><span class="hljs-comment">//strreplace.php</span>
+$str = <span class="hljs-string">&apos;I will destroy.&apos;</span>;
+$count = <span class="hljs-number">0</span>;
+$newStr = str_replace(<span class="hljs-string">&apos;destroy&apos;</span>,<span class="hljs-string">&apos;fade&apos;</span>,$str,$count);
+var_dump($str,$newStr,$count);
+</code></pre>
+<p><img src="../pic/11-4.png" alt=""></p>
+<p>&#x5982;&#x679C;<code>find</code>&#x548C;<code>replace</code>&#x90FD;&#x662F;&#x6570;&#x7EC4;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5219;&#x4F1A;&#x6309;&#x7167;&#x4E24;&#x8FB9;&#x6570;&#x7EC4;&#x7684;&#x5143;&#x7D20;&#x4E00;&#x4E00;&#x5BF9;&#x5E94;&#x6765;&#x66FF;&#x6362;&#x3002;&#x6B64;&#x65F6;<code>replace</code>&#x6570;&#x7EC4;&#x5143;&#x7D20;&#x6570;&#x91CF;&#x5E94;&#x8BE5;&#x5C0F;&#x4E8E;&#x7B49;&#x4E8E;<code>find</code>&#x6570;&#x7EC4;&#x5143;&#x7D20;&#x7684;&#x6570;&#x91CF;&#xFF08;&#x7406;&#x60F3;&#x60C5;&#x51B5;&#x5E94;&#x8BE5;&#x662F;&#x7B49;&#x4E8E;&#xFF09;&#x3002;</p>
+<pre><code class="lang-php"><span class="hljs-comment">//strreplace.php</span>
+$str = <span class="hljs-string">&apos;I will destroy.&apos;</span>;
+$count = <span class="hljs-number">0</span>;
+$newStr = str_replace(<span class="hljs-keyword">array</span>(<span class="hljs-string">&apos;i&apos;</span>,<span class="hljs-string">&apos;e&apos;</span>,<span class="hljs-string">&apos;o&apos;</span>),<span class="hljs-keyword">array</span>(<span class="hljs-string">&apos;~&apos;</span>,<span class="hljs-string">&apos;|&apos;</span>,<span class="hljs-string">&apos;+&apos;</span>),$str,$count);
+var_dump($str,$newStr,$count);
+</code></pre>
+<p><img src="../pic/11-5.png" alt=""></p>
+<p>&#x5982;&#x679C;&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x6570;&#x91CF;&#x4E0D;&#x5339;&#x914D;&#xFF0C;&#x5219;&#x4F1A;&#x51FA;&#x73B0;&#x4E00;&#x4E9B;&#x5F02;&#x5E38;&#x60C5;&#x51B5;&#x3002;&#x5982;&#x679C;<code>replace</code>&#x6570;&#x7EC4;&#x5143;&#x7D20;&#x5C11;&#xFF0C;<code>find</code>&#x6570;&#x7EC4;&#x4E2D;&#x6CA1;&#x6709;&#x5BF9;&#x5E94;&#x5230;&#x7684;&#x5143;&#x7D20;&#x5219;&#x4F1A;&#x66FF;&#x6362;&#x6210;&#x7A7A;&#x5B57;&#x7B26;&#x3002;</p>
+<h2 id="&#x5B57;&#x7B26;&#x4E32;--&#x6570;&#x7EC4;"><a name="&#x5B57;&#x7B26;&#x4E32;--&#x6570;&#x7EC4;" class="anchor-navigation-ex-anchor" href="#&#x5B57;&#x7B26;&#x4E32;--&#x6570;&#x7EC4;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3. &#x5B57;&#x7B26;&#x4E32; &amp; &#x6570;&#x7EC4;</h2>
+<p>&#x5728;<a href="10%20&#x6570;&#x7EC4;.md">&#x6570;&#x7EC4;</a>&#x4E00;&#x7AE0;&#x4E2D;&#x6211;&#x4EEC;&#x63D0;&#x5230;&#x4E86;<code>explode</code>&#x548C;<code>implode</code>&#x51FD;&#x6570;&#xFF0C;&#x5728;&#x8FD9;&#x91CC;&#x4E0D;&#x91CD;&#x590D;&#x53D9;&#x8FF0;&#x3002;</p>
+<h2 id="&#x6A21;&#x5F0F;"><a name="&#x6A21;&#x5F0F;" class="anchor-navigation-ex-anchor" href="#&#x6A21;&#x5F0F;"><i class="fa fa-link" aria-hidden="true"></i></a>1.4. &#x6A21;&#x5F0F;</h2>
+<p><strong>&#x6A21;&#x5F0F;</strong>&#x8FD9;&#x4E2A;&#x8BCD;&#x7ECF;&#x5E38;&#x4E0E;&#x53E6;&#x4E00;&#x4E2A;&#x6982;&#x5FF5;<strong>&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;</strong>&#x540C;&#x65F6;&#x51FA;&#x73B0;&#x3002;&#x4E00;&#x4E2A;&#x6A21;&#x5F0F;&#x4E32;&#x53EF;&#x4EE5;&#x8868;&#x793A;&#x4E00;&#x7CFB;&#x5217;&#x5177;&#x6709;&#x540C;&#x6837;&#x7279;&#x5F81;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x6A21;&#x5F0F;&#x4E32;&#x53EF;&#x4EE5;&#x7406;&#x89E3;&#x4E3A;&#x662F;&#x4E00;&#x7CFB;&#x5217;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x6982;&#x62EC;&#x3002;</p>
+<blockquote>
+<p>&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x4E0D;&#x662F;&#x5355;&#x7EAF;&#x5C5E;&#x4E8E;PHP&#x7684;&#x6280;&#x672F;&#xFF0C;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x662F;&#x4E00;&#x79CD;&#x72EC;&#x7ACB;&#x7684;&#x7406;&#x5FF5;&#xFF0C;&#x5B83;&#x4E0D;&#x5C5E;&#x4E8E;&#x4EFB;&#x4F55;&#x6280;&#x672F;&#xFF0C;&#x4F46;&#x662F;&#x53EF;&#x4EE5;&#x88AB;&#x5176;&#x4ED6;&#x5F88;&#x591A;&#x6280;&#x672F;&#x4F7F;&#x7528;&#x3002;&#x5C31;&#x50CF;&#x4F60;&#x5728;&#x7F16;&#x7A0B;&#x4E2D;&#x4F1A;&#x7528;&#x5230;&#x6570;&#x5B66;&#xFF0C;&#x4F46;&#x6570;&#x5B66;&#x4E0D;&#x5C5E;&#x4E8E;&#x4EFB;&#x4F55;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#xFF0C;&#x5B83;&#x662F;&#x81EA;&#x7136;&#x5B58;&#x5728;&#x5E76;&#x4E14;&#x72EC;&#x7ACB;&#x7684;&#x3002;</p>
+</blockquote>
+<p><code>/[0-9]/</code>&#x53EF;&#x4EE5;&#x8868;&#x793A;&#x201C;&#x4EFB;&#x610F;&#x4E00;&#x4E2A;&#x6570;&#x5B57;&#x201D;&#xFF0C;<code>/[A-Za-z]/</code>&#x5219;&#x8868;&#x793A;&#x201C;&#x4EFB;&#x610F;&#x4E00;&#x4E2A;&#x5B57;&#x6BCD;&#x201D;&#x3002;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x4E00;&#x822C;&#x683C;&#x5F0F;&#x662F;</p>
+<pre><code class="lang-php">/&#x8868;&#x8FBE;&#x5F0F;/[&#x4FEE;&#x6B63;&#x7B26;]
+</code></pre>
+<p>&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x7531;&#x82E5;&#x5E72;&#x4E2A;&#x539F;&#x5B50;&#x7EC4;&#x6210;&#xFF0C;&#x6BCF;&#x4E2A;&#x539F;&#x5B50;&#x5141;&#x8BB8;&#x662F;&#x4EE5;&#x4E0B;&#x5185;&#x5BB9;&#xFF1A;</p>
+<ul>
+<li>&#x5355;&#x4E2A;&#x5B57;&#x7B26;&#x3001;&#x6570;&#x5B57;&#xFF0C;&#x5982;<code>a-z</code>&#xFF0C;<code>A-Z</code>&#xFF0C;<code>0-9</code>&#x3002; </li>
+<li>&#x6A21;&#x5F0F;&#x5355;&#x5143;&#xFF0C;&#x5982;<code>(ABC)</code>&#x53EF;&#x4EE5;&#x7406;&#x89E3;&#x4E3A;&#x7531;&#x591A;&#x4E2A;&#x539F;&#x5B50;&#x7EC4;&#x6210;&#x7684;&#x5927;&#x7684;&#x539F;&#x5B50;&#x3002; </li>
+<li>&#x539F;&#x5B50;&#x8868;&#xFF0C;&#x5982;<code>[ABC]</code>&#x4E3A;A&#x6216;B&#x6216;C&#x7684;&#x5176;&#x4E2D;&#x4E4B;&#x4E00;&#x3002; </li>
+<li>&#x91CD;&#x65B0;&#x4F7F;&#x7528;&#x7684;&#x6A21;&#x5F0F;&#x5355;&#x5143;&#xFF0C;&#x5982;&#xFF1A;<code>\\1</code>&#x3002;</li>
+<li>&#x666E;&#x901A;&#x8F6C;&#x4E49;&#x5B57;&#x7B26;&#xFF0C;&#x5982;&#xFF1A;<code>\d</code>&#x3001;<code>\D</code>&#x3001;<code>\w</code>&#x3002;</li>
+<li>&#x8F6C;&#x4E49;&#x5143;&#x5B57;&#x7B26;&#xFF0C;&#x5982;<code>\*</code>&#x3001;<code>\.</code>&#x3002;</li>
+<li>&#x5177;&#x6709;&#x7279;&#x6B8A;&#x610F;&#x4E49;&#x7684;&#x5B57;&#x7B26;&#xFF08;&#x88AB;&#x79F0;&#x4E3A;<code>&#x5143;&#x5B57;&#x7B26;</code>&#xFF09;&#x3002;</li>
+</ul>
+<h3 id="&#x5143;&#x5B57;&#x7B26;"><a name="&#x5143;&#x5B57;&#x7B26;" class="anchor-navigation-ex-anchor" href="#&#x5143;&#x5B57;&#x7B26;"><i class="fa fa-link" aria-hidden="true"></i></a>1.4.1. &#x5143;&#x5B57;&#x7B26;</h3>
+<p><code>[aoeiu]</code>&#x8868;&#x793A;&#x4EFB;&#x610F;&#x4E00;&#x4E2A;&#x5355;&#x72EC;&#x7684;&#x5143;&#x97F3;&#x5B57;&#x6BCD;&#x3002;<code>[0-9]</code>&#x8868;&#x793A;&#x4EFB;&#x610F;&#x4E00;&#x4F4D;&#x6570;&#x5B57;&#x3002;<code>[a-z][0-9]</code>&#x8868;&#x793A;&#x4E00;&#x4E2A;&#x5C0F;&#x5199;&#x5B57;&#x6BCD;&#x548C;&#x4E00;&#x4E2A;&#x6570;&#x5B57;&#x7EC4;&#x6210;&#x7684;&#x4E24;&#x4F4D;&#x5B57;&#x7B26;&#x3002;<code>[a-zA-Z0-9]</code>&#x8868;&#x793A;&#x4EFB;&#x610F;&#x4E00;&#x4E2A;&#x5927;&#x5C0F;&#x5199;&#x5B57;&#x6BCD;&#x6216;&#x6570;&#x5B57;&#x3002;</p>
+<p><code>[^]</code>&#x8868;&#x793A;&#x9664;&#x4E86;&#x8BE5;&#x5143;&#x5B57;&#x7B26;&#x8868;&#x793A;&#x7684;&#x5B57;&#x7B26;&#x4E4B;&#x5916;&#x7684;&#x4EFB;&#x4F55;&#x5B57;&#x7B26;&#xFF0C;&#x76F8;&#x5F53;&#x4E8E;&#x5BF9;<code>[]</code>&#x53D6;&#x53CD;&#x3002;&#x4F8B;&#x5982;<code>[^0-9]</code>&#x8868;&#x793A;&#x4EFB;&#x610F;&#x4E00;&#x4F4D;&#x975E;&#x6570;&#x5B57;&#x5B57;&#x7B26;&#x3002;</p>
+<p><code>{m}</code>&#x8868;&#x793A;&#x5BF9;&#x524D;&#x9762;&#x5143;&#x5B57;&#x7B26;&#x7684;&#x6570;&#x91CF;&#x63A7;&#x5236;&#x3002;&#x4F8B;&#x5982;<code>[0-9]{4}</code>&#x8868;&#x793A;&#x4EFB;&#x610F;&#x56DB;&#x4F4D;&#x6570;&#x5B57;&#x3002;<code>[1][35789][0-9]{9}</code>&#x8868;&#x793A;&#x624B;&#x673A;&#x53F7;&#x7801;&#x3002;</p>
+<p><code>{m,n}</code>&#x4E5F;&#x53EF;&#x4EE5;&#x8868;&#x793A;&#x5BF9;&#x524D;&#x9762;&#x5143;&#x5B57;&#x7B26;&#x7684;&#x6570;&#x91CF;&#x63A7;&#x5236;&#xFF0C;&#x5E76;&#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x4E2A;&#x6570;&#x91CF;&#x533A;&#x95F4;&#x3002;&#x4F8B;&#x5982;<code>[a-z]{4,8}</code>&#x8868;&#x793A;4&#x5230;8&#x4F4D;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD;&#x3002;</p>
+<p>&#x5BF9;&#x5143;&#x5B57;&#x7B26;&#x7684;&#x6570;&#x91CF;&#x63A7;&#x5236;&#x4E0A;&#xFF0C;&#x8FD8;&#x6709;&#x51E0;&#x79CD;&#x7B80;&#x5199;&#x65B9;&#x5F0F;&#x3002;<code>*</code>&#x8868;&#x793A;&#x4EFB;&#x610F;&#x6B21;&#xFF0C;&#x7B49;&#x4EF7;&#x4E8E;<code>{0,}</code>&#xFF1B;<code>+</code>&#x8868;&#x793A;&#x81F3;&#x5C11;&#x4E00;&#x6B21;&#xFF0C;&#x7B49;&#x4EF7;&#x4E8E;<code>{1,}</code>&#xFF1B;<code>?</code>&#x8868;&#x793A;0&#x6B21;&#x6216;1&#x6B21;&#xFF0C;&#x7B49;&#x4EF7;&#x4E8E;<code>{0,1}</code>&#x3002;&#x4F8B;&#x5982;&#x6B63;&#x6574;&#x6570;&#x53EF;&#x4EE5;&#x8868;&#x793A;&#x4E3A;<code>[1-9][0-9]*</code>&#xFF0C;&#x6574;&#x6570;&#x53EF;&#x4EE5;&#x8868;&#x793A;&#x4E3A;<code>[\-]?[0-9]+</code>&#x3002;</p>
+<p><code>()</code>&#x8868;&#x793A;&#x4E00;&#x4E2A;&#x6574;&#x4F53;&#x7684;&#x539F;&#x5B50;&#xFF0C;&#x4F8B;&#x5982;<code>(ABC)</code>&#x8868;&#x793A;<code>ABC</code>&#x8FD9;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x6574;&#x4F53;&#xFF0C;<code>(red|blue)</code>&#x8868;&#x793A;<code>red</code>&#x6216;&#x8005;<code>blue</code>&#xFF0C;<code>(abc){2}</code>&#x8868;&#x793A;&#x4E24;&#x4E2A;<code>abc</code>&#x3002;</p>
+<p><code>^</code>&#x7528;&#x5728;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x5F00;&#x5934;&#xFF0C;&#x8868;&#x793A;&#x5FC5;&#x987B;&#x4EE5;&#x6B64;&#x5B57;&#x7B26;&#x5F00;&#x5934;&#x3002;<code>$</code>&#x7528;&#x5728;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x7ED3;&#x5C3E;&#xFF0C;&#x8868;&#x793A;&#x5FC5;&#x987B;&#x4EE5;&#x6B64;&#x5B57;&#x7B26;&#x7ED3;&#x5C3E;&#x3002;<code>.</code>&#x8868;&#x793A;&#x9664;&#x6362;&#x884C;&#x7B26;&#x4E4B;&#x5916;&#x7684;&#x4EFB;&#x610F;&#x5B57;&#x7B26;&#x3002;</p>
+<h3 id="&#x8F6C;&#x4E49;&#x5B57;&#x7B26;"><a name="&#x8F6C;&#x4E49;&#x5B57;&#x7B26;" class="anchor-navigation-ex-anchor" href="#&#x8F6C;&#x4E49;&#x5B57;&#x7B26;"><i class="fa fa-link" aria-hidden="true"></i></a>1.4.2. &#x8F6C;&#x4E49;&#x5B57;&#x7B26;</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">&#x8F6C;&#x4E49;&#x5B57;&#x7B26;</th>
+<th style="text-align:center">&#x542B;&#x4E49;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">\d</td>
+<td style="text-align:center">&#x5339;&#x914D;&#x4E00;&#x4E2A;&#x6570;&#x5B57;&#xFF0C;&#x7B49;&#x4EF7;&#x4E8E;<code>[0-9]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">\D</td>
+<td style="text-align:center">&#x5339;&#x914D;&#x9664;&#x6570;&#x5B57;&#x4EE5;&#x5916;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#xFF0C;&#x7B49;&#x4EF7;&#x4E8E;<code>[^0-9]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">\w</td>
+<td style="text-align:center">&#x5339;&#x914D;&#x4E00;&#x4E2A;&#x82F1;&#x6587;&#x5B57;&#x6BCD;&#x3001;&#x6570;&#x5B57;&#x6216;&#x4E0B;&#x5212;&#x7EBF;&#xFF0C;&#x7B49;&#x4EF7;&#x4E8E;<code>[0-9a-zA-Z_]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">\W</td>
+<td style="text-align:center">&#x5339;&#x914D;&#x9664;&#x82F1;&#x6587;&#x5B57;&#x6BCD;&#x3001;&#x6570;&#x5B57;&#x548C;&#x4E0B;&#x5212;&#x7EBF;&#x4EE5;&#x5916;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#xFF0C;&#x7B49;&#x4EF7;&#x4E8E;<code>[^0-9a-zA-Z_]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">\s</td>
+<td style="text-align:center">&#x5339;&#x914D;&#x4E00;&#x4E2A;&#x7A7A;&#x767D;&#x5B57;&#x7B26;&#xFF0C;&#x7B49;&#x4EF7;&#x4E8E;<code>[\f\n\r\t\v]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">\S</td>
+<td style="text-align:center">&#x5339;&#x914D;&#x9664;&#x7A7A;&#x767D;&#x5B57;&#x7B26;&#x4EE5;&#x5916;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#xFF0C;&#x7B49;&#x4EF7;&#x4E8E;<code>[^\f\n\r\t\v]</code></td>
+</tr>
+<tr>
+<td style="text-align:center">\f</td>
+<td style="text-align:center">&#x5339;&#x914D;&#x4E00;&#x4E2A;&#x6362;&#x9875;&#x7B26;&#xFF0C;&#x7B49;&#x4EF7;&#x4E8E;<code>\x0c</code>&#x6216;<code>\cL</code></td>
+</tr>
+<tr>
+<td style="text-align:center">\n</td>
+<td style="text-align:center">&#x5339;&#x914D;&#x4E00;&#x4E2A;&#x6362;&#x884C;&#x7B26;&#xFF0C;&#x7B49;&#x4EF7;&#x4E8E;<code>\x0a</code>&#x6216;<code>\cJ</code></td>
+</tr>
+<tr>
+<td style="text-align:center">\r</td>
+<td style="text-align:center">&#x5339;&#x914D;&#x4E00;&#x4E2A;&#x56DE;&#x8F66;&#x7B26;&#xFF0C;&#x7B49;&#x4EF7;&#x4E8E;<code>\x0d</code>&#x6216;<code>\cM</code></td>
+</tr>
+<tr>
+<td style="text-align:center">\t</td>
+<td style="text-align:center">&#x5339;&#x914D;&#x4E00;&#x4E2A;&#x5236;&#x8868;&#x7B26;&#xFF0C;&#x7B49;&#x4EF7;&#x4E8E;<code>\x09\</code>&#x6216;<code>\cl</code></td>
+</tr>
+<tr>
+<td style="text-align:center">\v</td>
+<td style="text-align:center">&#x5339;&#x914D;&#x4E00;&#x4E2A;&#x5782;&#x76F4;&#x5236;&#x8868;&#x7B26;&#xFF0C;&#x7B49;&#x4EF7;&#x4E8E;<code>\x0b</code>&#x6216;<code>\ck</code></td>
+</tr>
+<tr>
+<td style="text-align:center">\oNN</td>
+<td style="text-align:center">&#x5339;&#x914D;&#x4E00;&#x4E2A;&#x516B;&#x8FDB;&#x5236;&#x6570;&#x5B57;</td>
+</tr>
+<tr>
+<td style="text-align:center">\xNN</td>
+<td style="text-align:center">&#x5339;&#x914D;&#x4E00;&#x4E2A;&#x5341;&#x516D;&#x8FDB;&#x5236;&#x6570;&#x5B57;</td>
+</tr>
+<tr>
+<td style="text-align:center">\cC</td>
+<td style="text-align:center">&#x5339;&#x914D;&#x4E00;&#x4E2A;&#x63A7;&#x5236;&#x5B57;&#x7B26;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="&#x6A21;&#x5F0F;&#x4FEE;&#x9970;&#x7B26;"><a name="&#x6A21;&#x5F0F;&#x4FEE;&#x9970;&#x7B26;" class="anchor-navigation-ex-anchor" href="#&#x6A21;&#x5F0F;&#x4FEE;&#x9970;&#x7B26;"><i class="fa fa-link" aria-hidden="true"></i></a>1.4.3. &#x6A21;&#x5F0F;&#x4FEE;&#x9970;&#x7B26;</h3>
+<p>&#x6A21;&#x5F0F;&#x4FEE;&#x9970;&#x7B26;&#x653E;&#x5728;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x53F3;&#x8FB9;&#x659C;&#x7EBF;&#x7684;&#x5916;&#x4FA7;&#xFF0C;&#x6765;&#x4FEE;&#x9970;&#x672C;&#x6B21;&#x5339;&#x914D;&#x3002;</p>
+<p><code>i</code>&#x8868;&#x793A;&#x4E0D;&#x533A;&#x5206;&#x5927;&#x5C0F;&#x5199;&#xFF0C;&#x5373;<code>/[a-zA-Z]/</code>&#x7B49;&#x4EF7;&#x4E8E;<code>/[a-z]/i</code>&#x3002;</p>
+<p><code>s</code>&#x8868;&#x793A;&#x5339;&#x914D;&#x89C6;&#x4E3A;&#x5355;&#x884C;&#x3002;</p>
+<p><code>U</code>&#x4F1A;&#x8BA9;&#x5339;&#x914D;&#x6210;&#x529F;&#x5373;&#x505C;&#x6B62;&#xFF0C;&#x62D2;&#x7EDD;&#x8D2A;&#x5A6A;&#x5339;&#x914D;&#x3002;</p>
+<h3 id="&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x76F8;&#x5173;&#x51FD;&#x6570;"><a name="&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x76F8;&#x5173;&#x51FD;&#x6570;" class="anchor-navigation-ex-anchor" href="#&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x76F8;&#x5173;&#x51FD;&#x6570;"><i class="fa fa-link" aria-hidden="true"></i></a>1.4.4. &#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x76F8;&#x5173;&#x51FD;&#x6570;</h3>
+<h4 id="pregmatchallpatternsubjectmatches"><a name="pregmatchallpatternsubjectmatches" class="anchor-navigation-ex-anchor" href="#pregmatchallpatternsubjectmatches"><i class="fa fa-link" aria-hidden="true"></i></a><a name="pregmatchallpatternsubjectmatches" class="plugin-anchor" href="#pregmatchallpatternsubjectmatches"><i class="fa fa-link" aria-hidden="true"></i></a><code>preg_match_all(pattern,subject,matches)</code></h4>
+<h4 id="pregmatchpatternsubjectmatches"><a name="pregmatchpatternsubjectmatches" class="anchor-navigation-ex-anchor" href="#pregmatchpatternsubjectmatches"><i class="fa fa-link" aria-hidden="true"></i></a><a name="pregmatchpatternsubjectmatches" class="plugin-anchor" href="#pregmatchpatternsubjectmatches"><i class="fa fa-link" aria-hidden="true"></i></a><code>preg_match(pattern,subject,matches)</code></h4>
+<p><code>preg_match_all</code>&#x4F1A;&#x8FDB;&#x884C;&#x5168;&#x6587;&#x5339;&#x914D;&#xFF0C;&#x8FD4;&#x56DE;&#x5339;&#x914D;&#x7684;&#x4E2A;&#x6570;&#x3002;<code>preg_match</code>&#x53EA;&#x4F1A;&#x5339;&#x914D;&#x4E00;&#x6B21;&#xFF0C;&#x6210;&#x529F;&#x8FD4;&#x56DE;1&#xFF0C;&#x5426;&#x5219;&#x8FD4;&#x56DE;0&#x3002;</p>
+<p>&#x4E24;&#x4E2A;&#x51FD;&#x6570;&#x90FD;&#x4F1A;&#x5728;<code>subject</code>&#x4E2D;&#x6839;&#x636E;<code>pattern</code>&#x6A21;&#x5F0F;&#x8FDB;&#x884C;&#x5339;&#x914D;&#xFF0C;&#x5C06;&#x5339;&#x914D;&#x5230;&#x7684;&#x7ED3;&#x679C;&#x653E;&#x5728;<code>matches</code>&#x4E2D;&#x3002;&#x5176;&#x4E2D;<code>matches</code>&#x53C2;&#x6570;&#x53EF;&#x9009;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;<code>matches</code>&#x53C2;&#x6570;&#x5219;&#x53EA;&#x8FD4;&#x56DE;&#x5339;&#x914D;&#x4E2A;&#x6570;&#xFF0C;&#x7528;&#x4E8E;&#x68C0;&#x67E5;&#x6A21;&#x5F0F;&#x4E32;&#x662F;&#x5426;&#x5339;&#x914D;&#x3002;</p>
+<p>&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x5E94;&#x7528;&#x573A;&#x666F;&#x8FDC;&#x6BD4;&#x4E0A;&#x9762;&#x7684;&#x63CF;&#x8FF0;&#x8981;&#x5E7F;&#x6CDB;&#x5F97;&#x591A;&#xFF0C;&#x751A;&#x81F3;&#x53EF;&#x4EE5;&#x5C06;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x5F53;&#x6210;&#x4E00;&#x95E8;&#x72EC;&#x7ACB;&#x7684;&#x8BED;&#x8A00;&#x6765;&#x8FDB;&#x884C;&#x5B66;&#x4E60;&#x3002;&#x8FD9;&#x91CC;&#x53EA;&#x8FDB;&#x884C;&#x7B80;&#x5355;&#x7684;&#x53D9;&#x8FF0;&#x3002;</p>
+<p>&#x4E0B;&#x9762;&#x6211;&#x4EEC;&#x7F16;&#x5199;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x7A0B;&#x5E8F;&#x6765;&#x4F53;&#x73B0;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x4F5C;&#x7528;&#x3002;</p>
+<blockquote>
+<p>&#x7528;&#x6237;&#x4F1A;&#x901A;&#x8FC7;&#x8868;&#x5355;&#x5411;&#x670D;&#x52A1;&#x5668;&#x63D0;&#x4EA4;&#x4E00;&#x4E2A;<code>phone</code>&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x4F7F;&#x7528;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x68C0;&#x67E5;&#x8FD9;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x662F;&#x5426;&#x6EE1;&#x8DB3;&#x624B;&#x673A;&#x53F7;&#x7684;&#x683C;&#x5F0F;&#x8981;&#x6C42;&#x3002;</p>
+</blockquote>
+<pre><code class="lang-php"><span class="hljs-comment">//preg.php</span>
+$phone = $_GET[<span class="hljs-string">&apos;phone&apos;</span>];
+$pregStr = <span class="hljs-string">&quot;/1[3-8][0-9]{9}/i&quot;</span>;
+<span class="hljs-keyword">echo</span> <span class="hljs-string">&apos;&#x8981;&#x8FDB;&#x884C;&#x9A8C;&#x8BC1;&#x7684;&#x624B;&#x673A;&#x53F7;&#x662F;&#xFF1A;&apos;</span>.$phone.<span class="hljs-string">&apos;&lt;br/&gt;&apos;</span>;
+<span class="hljs-keyword">if</span>(preg_match($pregStr,$phone)){
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">&apos;&#x9A8C;&#x8BC1;&#x901A;&#x8FC7;&apos;</span>;
+}<span class="hljs-keyword">else</span>{
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">&apos;&#x9A8C;&#x8BC1;&#x4E0D;&#x901A;&#x8FC7;&apos;</span>;
+}
+</code></pre>
+<p>&#x5F53;&#x6211;&#x4EEC;&#x5411;<code>$phone</code>&#x53D8;&#x91CF;&#x4F20;&#x5165;&#x4E00;&#x4E2A;&#x6807;&#x51C6;&#x624B;&#x673A;&#x53F7;&#x683C;&#x5F0F;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x65F6;&#xFF0C;&#x7A0B;&#x5E8F;&#x4F5C;&#x51FA;&#x76F8;&#x5E94;&#xFF1A;</p>
+<p><img src="../pic/11-6.png" alt=""></p>
+<p>&#x5982;&#x679C;&#x4F20;&#x5165;&#x4E00;&#x4E2A;&#x4E0D;&#x5408;&#x7406;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#xFF1A;</p>
+<p><img src="../pic/11-7.png" alt=""></p>
+<p><strong>&#x53C2;&#x6570;&#x9A8C;&#x8BC1;</strong>&#x662F;&#x670D;&#x52A1;&#x7AEF;&#x7684;&#x4E00;&#x9879;&#x91CD;&#x8981;&#x4EFB;&#x52A1;&#x3002;&#x5728;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x5B58;&#x53D6;&#x7684;&#x76F8;&#x5173;&#x5F00;&#x53D1;&#x65F6;&#xFF0C;&#x6709;&#x4E00;&#x6761;&#x6C38;&#x6052;&#x7684;&#x51C6;&#x5219;&#xFF0C;&#x90A3;&#x5C31;&#x662F;<strong>&#x6C38;&#x8FDC;&#x4E0D;&#x8981;&#x76F8;&#x4FE1;&#x7528;&#x6237;&#x63D0;&#x4EA4;&#x7684;&#x6570;&#x636E;</strong>&#x3002;&#x57FA;&#x4E8E;&#x8FD9;&#x6761;&#x51C6;&#x5219;&#xFF0C;&#x53C2;&#x6570;&#x9A8C;&#x8BC1;&#x5C31;&#x663E;&#x5F97;&#x5C24;&#x4E3A;&#x91CD;&#x8981;&#x3002;&#x5728;&#x4E0A;&#x8FF0;&#x95EE;&#x9898;&#x4E2D;&#xFF0C;&#x5982;&#x679C;&#x7528;&#x6237;&#x6CA1;&#x6709;&#x63D0;&#x4EA4;&#x624B;&#x673A;&#x53F7;&#xFF0C;&#x800C;&#x662F;&#x63D0;&#x4EA4;&#x4E86;&#x4E00;&#x4E2A;&#x53EF;&#x4EE5;&#x88AB;&#x6267;&#x884C;&#x7684;&#x6570;&#x636E;&#x5E93;&#x64CD;&#x4F5C;&#x8BED;&#x53E5;&#xFF0C;&#x90A3;&#x4E48;&#x5C31;&#x6709;&#x53EF;&#x80FD;&#x4F1A;&#x5BF9;&#x6570;&#x636E;&#x5E93;&#x9020;&#x6210;&#x610F;&#x6599;&#x4E4B;&#x5916;&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x751A;&#x81F3;&#x662F;&#x7834;&#x574F;&#x3002;&#x4E00;&#x822C;&#x8FD9;&#x79CD;&#x653B;&#x51FB;&#x88AB;&#x79F0;&#x4E3A;<strong>SQL&#x6CE8;&#x5165;</strong>&#x3002;</p>
+<p>&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x7ECF;&#x5E38;&#x7528;&#x4E8E;<strong>&#x53C2;&#x6570;&#x9A8C;&#x8BC1;</strong>&#x6216;<strong>&#x5185;&#x5BB9;&#x641C;&#x7D22;</strong>&#xFF0C;&#x5728;web&#x7F16;&#x7A0B;&#x9886;&#x57DF;&#x5177;&#x6709;&#x4E0D;&#x53EF;&#x66FF;&#x4EE3;&#x7684;&#x5730;&#x4F4D;&#x3002;</p>
+<footer class="page-footer"><span class="copyright">&#x8FD9;&#x672C;&#x4E66;&#x662F;xt&#x5199;&#x7684;/</span><span class="footer-modification">&#x4E0A;&#x6B21;&#x4FEE;&#x6539;&#xFF1A;
+2019-04-17 14:57:44
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="c10.html" class="navigation navigation-prev " aria-label="Previous page: Chapter10 数组">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="c12.html" class="navigation navigation-next " aria-label="Next page: Chapter12 类与对象">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Chapter11 字符串","level":"1.4.7","depth":2,"next":{"title":"Chapter12 类与对象","level":"1.4.8","depth":2,"path":"s2/c12.md","ref":"s2/c12.md","articles":[]},"previous":{"title":"Chapter10 数组","level":"1.4.6","depth":2,"path":"s2/c10.md","ref":"s2/c10.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","splitter","anchors","github","github-buttons","sharing-plus","anchor-navigation-ex","code","search-pro","-lunr","-search","tbfed-pagefooter","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"这本书是xt写的","modify_label":"上次修改：","modify_format":"YYYY-MM-DD HH:mm:ss"},"github":{"url":"https://github.com/xtzero"},"livereload":{},"splitter":{},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"github-buttons":{"buttons":[{"user":"xtzero","repo":"xtPhpBook","type":"star","size":"small","count":true}]},"sharing":{"douban":true,"facebook":false,"google":false,"pocket":false,"qq":true,"qzone":true,"twitter":false,"weibo":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","author":"xt","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"xtPHPBook","language":"zh-hans","gitbook":"3.2.3","description":"my phpbook"},"file":{"path":"s2/c11.md","mtime":"2019-04-17T06:57:44.446Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-04-17T08:08:15.462Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
